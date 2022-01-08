@@ -29,3 +29,14 @@
           transform: scale(1.5);
   opacity: 1;
 }
+
+
+@media only screen and (max-width: 640px)
+{
+  .carousel {
+    overflow: scroll;
+    padding-left: 30px;
+    width: 100%;
+    position: relative;
+  }
+}
